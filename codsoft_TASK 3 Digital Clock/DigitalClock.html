@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DigitalClock.css">
+    <title>Digital Clock</title>
+</head>
+<body>
+    <div class="clock">
+        <div id="hours" class="time"></div>
+        <div class="separator">:</div>
+        <div id="minutes" class="time"></div>
+        <div class="separator">:</div>
+        <div id="seconds" class="time"></div>
+        <div id="period" class="period"></div>
+    </div>
+    <div id="date" class="date"></div>
+    <select id="timezone" onchange="updateClock()">
+        <option value="local">Local Time</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">London</option>
+        <!-- Add more options as needed -->
+    </select>
+    <script src="DigitalClock.js"></script>
+</body>
+</html>
