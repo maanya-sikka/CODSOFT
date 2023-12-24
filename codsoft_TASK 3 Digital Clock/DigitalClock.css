@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: #61dafb;
+}
+
+.clock {
+    display: flex;
+    font-size: 3em;
+}
+
+.time {
+    min-width: 1em;
+    text-align: center;
+}
+
+.separator {
+    margin: 0 0.3em;
+}
+
+.period {
+    margin: 0 0.3em;
+    font-size: 0.5em;
+}
+
+.date {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+#timezone {
+    margin-left: 1em;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #fff;
+}

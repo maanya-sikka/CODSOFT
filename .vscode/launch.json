@@ -7,8 +7,20 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open t1.html",
-            "file": "C:\\Users\\Nikhil\\-git repos\\CODSOFT\\TaskList.html"
+            "name": "Open DigitalClock.html",
+            "file": "C:\\Users\\Nikhil\\-git repos\\New folder (2)\\CODSOFT\\codsoft_TASK 3 Digital Clock\\DigitalClock.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open ToDoList.html",
+            "file": "C:\\Users\\Nikhil\\-git repos\\New folder (2)\\CODSOFT\\codsoft_TASK 1 To-Do List\\ToDoList.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Portfolio.html",
+            "file": "C:\\Users\\Nikhil\\-git repos\\New folder (2)\\CODSOFT\\codsoft_TASK 2 Portfolio\\Portfolio.html"
         }
     ]
 }
